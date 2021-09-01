@@ -5,3 +5,6 @@
 soong_namespace {
 }
 
+check_elf_files: false,
+allow_undefined_symbols: true,
+
