@@ -7,3 +7,5 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),guacamoleb)
 
 endif
+
+LOCAL_CHECK_ELF_FILES := false
