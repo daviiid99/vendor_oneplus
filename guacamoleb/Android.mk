@@ -9,3 +9,4 @@ ifeq ($(TARGET_DEVICE),guacamoleb)
 endif
 
 LOCAL_CHECK_ELF_FILES := false
+LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
